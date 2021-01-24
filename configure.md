@@ -16,7 +16,10 @@ https://blog.csdn.net/baidu_36602427/article/details/86548203
 sudo gedit /etc/apt/sources.list
 ```
 
-Replace all contains to follows
+Replace all contains to follows  （this is fot ubuntu18.04）
+
+if you want more source for different ubuntu, go to this website
+https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
 
 ```bash
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
@@ -70,6 +73,11 @@ Download `.deb` file from official website
 sudo apt-get install -f
 sudo dpkg -i code_1.29.1-1542309157_amd64.deb
 ```
+
+#### Install sougoupinyin
+
+https://www.cnblogs.com/lfri/p/10769144.html
+
 ##### Resolve dependencies
 ```bash
 sudo apt-get install -f
